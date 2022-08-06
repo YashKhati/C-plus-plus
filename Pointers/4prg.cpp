@@ -16,8 +16,8 @@ void updateVal(int *ptr)
 
 int getSum(int arr[],int n)
 {  
-   cout<<"Size of arr inside function "<<sizeof(arr)<<endl; 
-   int sum=0;
+   cout<<"Size of arr inside function "<<sizeof(arr)<<endl;  // 8 = size of pointer arr not 40(size of whole array) 
+    int sum=0;
    for(int i=0;i<n;i++)
    {
      sum+=arr[i];
